@@ -1,9 +1,11 @@
 # Gridsome Articles Starter
 
-Grisome starter ideal for articles/tutorials
+Grisome starter ideal for articles/tutorials.
+
+> We have a newer version, built with tailwind: https://github.com/jammeryhq/gridsome-starter-articles
 
 ## Demo
-[https://gridsome-starter-articles.now.sh/](https://gridsome-starter-articles.now.sh/)
+[https://gridsome-starter-articles-bootstrap.jammeryhq.vercel.app/](https://gridsome-starter-articles-bootstrap.jammeryhq.vercel.app/)
 
 ## Features
 
