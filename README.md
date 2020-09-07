@@ -1,46 +1,38 @@
-# Gridsome Articles Starter
+<div align="center">
 
-Grisome starter ideal for articles/tutorials.
+<a href="https://www.jammeryhq.com" title="JammeryHQ" target="_blank">
+
+  <img src="./jammeryhq.png" width="128" />
+  
+</a>
+
+<p>
+Fast-track your JAMstack development & learning
+</p>
+</div>
+
+<hr />
+
+## About the starter
+
+Gridsome starter that is ideal for articles/tutorials that uses markdown for the content and Bootrap 4 for the styles.
 
 > We have a newer version, built with tailwind: https://github.com/jammeryhq/gridsome-starter-articles
 
-## Demo
-[https://gridsome-starter-articles-bootstrap.jammeryhq.vercel.app/](https://gridsome-starter-articles-bootstrap.jammeryhq.vercel.app/)
+## Key features
 
-## Features
-
-* Gridsome
-* Bootstrap
-* SCSS
-* Markdown
-* Tags
-* Related Pages
-* Blog
-* Table of contents
+* Built with bootstrap
+* Responsive 
+* Fulltext search
+* Dynamic custom pages
 * Pagination
-* Fulltext search with fusejs
-* Related posts for articles
-* Filterable records ( in the template it's named as Resources )
+* Different content types for articles and news
+* Syntax Highlighting via PrismJS
 
-## Plugins
+## Installation
 
-With Gridsome offering a plugin-rich ecosystem, there are a few key plugins that make this project possible. 
+Run the following command to create a new gridsome project 
 
-- [Gridsome Source Filesystem](https://gridsome.org/plugins/@gridsome/source-filesystem) Transform files into content that can be fetched with GraphQL in your components.
-- [gridsome-plugin-remark-embed](https://gridsome.org/plugins/@noxify/gridsome-plugin-remark-embed) Embed Plugin to parse different 3rd party urls like youtube, github gists etc.
-- [gridsome-plugin-remark-prismjs-all](https://gridsome.org/plugins/gridsome-plugin-remark-prismjs-all) Transformer to highlight code blocks
-- [gridsome-plugin-robots-txt](https://gridsome.org/plugins/gridsome-plugin-robots-txt) Generates the `robots.txt` 
-- [plugin-sitemap](https://gridsome.org/plugins/@gridsome/plugin-sitemap) Generates the `sitemap.xml` 
-
-## Install
-
-### 1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-blog https://github.com/jammeryhq/gridsome-starter-articles-bootstrap` to install gridsome with this starter
-2. `cd my-blog` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+```
+gridsome create my-blog https://github.com/jammeryhq/gridsome-starter-articles-bootstrap
+```
